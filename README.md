@@ -44,7 +44,8 @@ B1 = 0.55:0.15:1;
 
 Both dictionaries can be downloaded by executing the script
 
-    $ python ./scripts/data/pull_example_data.py
+    $ cd ./scripts/data
+    $ python ./pull_example_data.py
 
 The dictionaries can then be found in the directory ``./in``.
 
