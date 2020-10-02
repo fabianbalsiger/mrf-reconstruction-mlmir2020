@@ -1,0 +1,2 @@
+resume: "../out/run-dir/checkpoints/checkpoint_best-MEAN-R2_ep0000.pth"  # adapt here
+epochs: 30

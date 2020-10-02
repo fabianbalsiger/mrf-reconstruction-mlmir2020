@@ -1,0 +1,23 @@
+test_database_dir: "../in/valid"
+
+experiment: "test_basic"  # name or path to existing test directory
+
+out_file_postfix: ""
+plot_results: false # thread issues where observed when two consecutive test runs are plotting at the same time
+save_data: true
+
+model_path: "./out/run-dir/checkpoints/checkpoint_best-MEAN-NOISE_R2_ep0000.pth"  # adapt here
+
+batch_size_testing: 50
+seed: 42
+
+# test
+do_basic_test: true
+y_noise_levels: [0., !!float 3e-2]
+save_fingerprints_if_fwd_known: false
+
+# snr
+do_snr: true
+snr_y_noise_levels: [0.049303961541253674, 0.027725655070242595, 0.015591281613970743, 0.008767621964216233, 0.004930396154125367, 0.0027725655070242597, 0.0015591281613970742, 0.0008767621964216232]
+snrs: [5, 10, 15, 20, 25, 30, 35, 40]  # in dB
+noise_samples: 100
