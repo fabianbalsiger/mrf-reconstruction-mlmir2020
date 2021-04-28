@@ -1,5 +1,5 @@
 # Learning Bloch Simulations for MR Fingerprinting by Invertible Neural Networks
-This repository contains code for the [MLMIR 2020](https://sites.google.com/view/mlmir2020/) paper "Learning Bloch Simulations for MR Fingerprinting by Invertible Neural Networks", which can be found at [http://arxiv.org/abs/2008.04139](http://arxiv.org/abs/2008.04139).
+This repository contains code for the [MLMIR 2020](https://sites.google.com/view/mlmir2020/) paper "Learning Bloch Simulations for MR Fingerprinting by Invertible Neural Networks", which can be found at [https://doi.org/10.1007/978-3-030-61598-7_6](https://doi.org/10.1007/978-3-030-61598-7_6).
 
 ## Installation
 
@@ -100,11 +100,17 @@ Balsiger, F., Jungo, A., Scheidegger, O., Marty, B., & Reyes, M. (2020). Learnin
 @inproceedings{BalsigerJungo2020,
 archivePrefix = {arXiv},
 arxivId = {2008.04139},
+address = {Cham},
 author = {Balsiger, Fabian and Jungo, Alain and Scheidegger, Olivier and Marty, Benjamin and Reyes, Mauricio},
 booktitle = {Machine Learning for Medical Image Reconstruction},
+doi = {10.1007/978-3-030-61598-7_6},
+editor = {Deeba, Farah and Johnson, Patricia and W{\"{u}}rfl, Tobias and Ye, Jong Chul},
+pages = {60--69},
+publisher = {Springer},
 series = {Lecture Notes in Computer Science},
 title = {{Learning Bloch Simulations for MR Fingerprinting by Invertible Neural Networks}},
 url = {http://arxiv.org/abs/2008.04139},
+volume = {12450},
 year = {2020}
 }
 ```
